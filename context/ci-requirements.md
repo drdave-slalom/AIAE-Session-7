@@ -8,7 +8,7 @@
 
 ## Service Context
 
-<!-- Copilot: summarize the tech stack (Node.js version, test framework, IaC tool) that CI must validate (from docs/project-overview.md) -->
+CI must validate the Node.js 20 service and React frontend, run Jest tests with at least 80% coverage, and check the Terraform >= 1.5 infrastructure using the AWS provider, including Terraform validation, TFLint, and Checkov scans.
 
 ## Reusable Workflow (`golden-path-ci.yml`)
 
