@@ -8,7 +8,7 @@
 
 ## Service Context
 
-<!-- Copilot: summarize what the todo-service is and how it will be hosted (from docs/project-overview.md) -->
+The todo-service is a stateless full-stack task-management application: a React frontend communicates with a Node.js/Express REST API for CRUD operations on an in-memory todo store. It will be containerized into separate frontend and backend images, stored in Amazon ECR, and deployed on AWS ECS Fargate behind an Application Load Balancer. CloudWatch Logs and Container Insights will provide observability.
 
 ---
 
